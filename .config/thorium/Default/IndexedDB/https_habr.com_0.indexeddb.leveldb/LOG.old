@@ -1,0 +1,7 @@
+2024/04/29-15:36:51.589 3402 Reusing MANIFEST /home/tim/.config/thorium/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/29-15:36:51.589 3402 Recovering log #3
+2024/04/29-15:36:51.590 3402 Reusing old log /home/tim/.config/thorium/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/000003.log 
+2024/04/29-18:36:00.564 3403 Level-0 table #5: started
+2024/04/29-18:36:00.567 3403 Level-0 table #5: 6882 bytes OK
+2024/04/29-18:36:00.573 3403 Delete type=0 #3
+2024/04/29-18:36:00.574 3403 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

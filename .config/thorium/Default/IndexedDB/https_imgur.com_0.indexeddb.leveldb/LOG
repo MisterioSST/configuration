@@ -1,0 +1,7 @@
+2024/04/29-13:35:09.603 2d6 Reusing MANIFEST /home/tim/.config/thorium/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/29-13:35:09.603 2d6 Recovering log #4
+2024/04/29-13:35:09.603 2d6 Reusing old log /home/tim/.config/thorium/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/000004.log 
+2024/04/29-13:35:09.651 2db Level-0 table #8: started
+2024/04/29-13:35:09.653 2db Level-0 table #8: 3399 bytes OK
+2024/04/29-13:35:09.659 2db Delete type=0 #4
+2024/04/29-13:35:09.659 2d6 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

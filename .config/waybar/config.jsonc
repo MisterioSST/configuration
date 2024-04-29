@@ -1,0 +1,39 @@
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["wireplumber", "network", "sway/language", "battery", "clock", "tray"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": ["", "", ""],
+        "scroll-step": 5.0,
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "tooltip": false
+    },
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+        "format-disconnected": "",
+        "tooltip": false
+    },
+    "sway/language": {
+        "format": "{shortDescription}",
+        "on-click": "swaymsg input type:keyboard xkb_switch_layout next",
+        "tooltip": false
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%d.%m.%Y  %H:%M}",
+        "tooltip": false
+    }
+}

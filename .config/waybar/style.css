@@ -1,0 +1,107 @@
+@import "mocha.css";
+
+* {
+    border: none;
+    border-radius: 6;
+    font-family: "JetbrainsMono Nerd Font";
+    font-size: 14px;
+    min-height: 25px;
+}
+
+window#waybar {
+    background: @base;
+    border-radius: 0;
+    color: @text;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: @surface0;
+    color: @text;
+}
+
+#workspaces button.focused {
+    background: @surface0;
+}
+
+#clock, #battery, #network, #wireplumber, #language, #tray, #mode {
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+#clock {
+    background-color: @surface0;
+    color: @text;
+    font-weight: bold;
+}
+
+#battery {
+    background-color: @surface0;
+    color: @text;
+}
+
+#battery.charging {
+    color: @green;
+    background-color: @surface0;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#battery.warning:not(.charging) {
+    background: @surface0;
+    color: @red;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#network {
+    background-color: @surface0;
+}
+
+#network.disconnected {
+    background-color: @surface0;
+}
+
+#wireplumber {
+    background-color: @surface0;
+    color: @text;
+}
+
+#wireplumber.muted {
+    background-color: @surface0;
+    color: @red;
+}
+
+#language {
+    background: @surface0;
+    color: @text;
+    min-width: 16px;
+}
+
+#tray {
+    background-color: @surface0;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+
