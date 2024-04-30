@@ -1,0 +1,23 @@
+2024-04-30 15:22:44.445 [info] Started local extension host with pid 5376.
+2024-04-30 15:22:44.513 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tim/.vscode-oss/extensions
+2024-04-30 15:22:44.922 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tim/.vscode-oss/extensions
+2024-04-30 15:22:47.810 [info] [perf] Render performance baseline is 69ms
+2024-04-30 15:23:03.558 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:26717)
+    at async Z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Z.Hc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Z.rc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:13012
+2024-04-30 15:23:04.161 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async Z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Te.Hc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Te.rc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:13012

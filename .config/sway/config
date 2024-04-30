@@ -12,7 +12,7 @@ set $right l
 # Terminal emulator
 set $term alacritty
 # Application launcher
-set $menu bemenu-run --prompt "" --fn "JetBrainsMono 13" --tb "#1e1e2e" --tf "#cdd6f4" --fb "#1e1e2e" --ff "#cdd6f4" --cb "#1e1e2e" --cf "#f5e0dc" --nb "#1e1e2e" --nf "#cdd6f4" --hb "#313244" --hf "#cba6f7" --sb "#313244" -sf "#cba6f7" --ab "#1e1e2e" --af "#cdd6f4" | xargs swaymsg exec --
+set $menu bemenu-run --prompt "" --fn "JetBrainsMono 13" --fb "#1e1e2e" --ff "#cdd6f4" --nb "#1e1e2e" --nf "#cdd6f4" --tb "#1e1e2e" --hb "#1e1e2e" --tf "#f38ba8" --hf "#f9e2af" --af "#cdd6f4" --ab "#1e1e2e" | xargs swaymsg exec --
 
 ### Output configuration
 # Font
@@ -20,12 +20,12 @@ font pango:JetBrainsMono 10
 # Wallpaper
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # Colors
-# target                 border    background text  indicator child_border
-client.focused           $pink     $base      $text $pink     $pink
-client.focused_inactive  $mauve    $base      $text $pink     $mauve
-client.unfocused         $mauve    $base      $text $pink     $mauve
-client.urgent            $maroon   $base      $text $overlay0 $maroon
-client.placeholder       $overlay0 $base      $text $overlay0 $overlay0
+# target                 title     bg    text   indicator  border
+client.focused           $lavender $base $text  $rosewater $lavender
+client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
+client.unfocused         $overlay0 $base $text  $rosewater $overlay0
+client.urgent            $peach    $base $peach $overlay0  $peach
+client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
 default_border pixel 2
 

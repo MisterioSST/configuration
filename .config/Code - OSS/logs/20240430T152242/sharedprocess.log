@@ -1,0 +1,64 @@
+2024-04-30 15:22:44.849 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tim/.vscode-oss/extensions
+2024-04-30 15:22:45.000 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/tim/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/tim/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-04-30 15:22:45.000 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tim/.vscode-oss/extensions
+2024-04-30 15:22:45.051 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-30 15:23:20.811 [info] Getting Manifest... catppuccin.catppuccin-vsc-pack
+2024-04-30 15:23:20.997 [info] Installing extension: catppuccin.catppuccin-vsc-pack
+2024-04-30 15:23:21.276 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2024-04-30 15:23:21.525 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2024-04-30 15:23:21.759 [info] Installing extension: catppuccin.catppuccin-vsc-icons
+2024-04-30 15:23:21.759 [info] Installing extension: catppuccin.catppuccin-vsc
+2024-04-30 15:23:22.682 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-04-30 15:23:22.706 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc-pack
+2024-04-30 15:23:22.740 [info] Extracted extension to file:///home/tim/.vscode-oss/extensions/catppuccin.catppuccin-vsc-pack-1.0.2-universal: catppuccin.catppuccin-vsc-pack
+2024-04-30 15:23:22.745 [info] Renamed to /home/tim/.vscode-oss/extensions/catppuccin.catppuccin-vsc-pack-1.0.2-universal
+2024-04-30 15:23:22.747 [info] Extracting extension completed. catppuccin.catppuccin-vsc-pack
+2024-04-30 15:23:22.849 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-30 15:23:23.492 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-04-30 15:23:23.494 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2024-04-30 15:23:23.535 [info] Extracted extension to file:///home/tim/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.14.0-universal: catppuccin.catppuccin-vsc
+2024-04-30 15:23:23.542 [info] Renamed to /home/tim/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.14.0-universal
+2024-04-30 15:23:23.544 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2024-04-30 15:23:23.627 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-04-30 15:23:24.378 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-04-30 15:23:24.381 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc-icons
+2024-04-30 15:23:25.800 [info] Extracted extension to file:///home/tim/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.11.0-universal: catppuccin.catppuccin-vsc-icons
+2024-04-30 15:23:25.805 [info] Renamed to /home/tim/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.11.0-universal
+2024-04-30 15:23:25.807 [info] Extracting extension completed. catppuccin.catppuccin-vsc-icons
+2024-04-30 15:23:25.817 [info] Extension installed successfully: catppuccin.catppuccin-vsc-pack
+2024-04-30 15:23:25.817 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2024-04-30 15:23:25.817 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons
+2024-04-30 15:23:25.892 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/tim/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
