@@ -47,6 +47,7 @@ tooltip label {
 #battery {
     background-color: @surface0;
     color: @text;
+    padding-right: 18px;
 }
 
 #battery.charging {
@@ -56,6 +57,7 @@ tooltip label {
 
 #network {
     background-color: @surface0;
+    padding-right: 16px;
 }
 
 #network.disconnected {
@@ -65,11 +67,13 @@ tooltip label {
 #wireplumber {
     background-color: @surface0;
     color: @text;
+    padding-right: 18px;
 }
 
 #wireplumber.muted {
     background-color: @surface0;
     color: @red;
+    padding-right: 10px;
 }
 
 #language {

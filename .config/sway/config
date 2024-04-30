@@ -18,7 +18,7 @@ set $menu bemenu-run --prompt "" --fn "JetBrainsMono 13" --fb "#1e1e2e" --ff 
 # Font
 font pango:JetBrainsMono 10
 # Wallpaper
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /home/tim/.config/sway/wallpaper.png fill
 # Colors
 # target                 title     bg    text   indicator  border
 client.focused           $lavender $base $text  $rosewater $lavender
