@@ -1,0 +1,15 @@
+font=JetBrains Mono 12
+
+[powermenu]
+background=1e1e2e
+border=313244
+button-background=313244
+text=cdd6f4
+button-text=cdd6f4
+border-bottom-size=0
+button-border-size=0
+button-gap=10
+button-dismiss-gap=5
+button-margin-right=0
+edge=top
+layer=top

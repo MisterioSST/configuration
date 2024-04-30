@@ -12,7 +12,7 @@ set $right l
 # Terminal emulator
 set $term alacritty
 # Application launcher
-set $menu bemenu-run --prompt "" --fn "JetBrainsMono 13" --tb "#1e1e2e" --tf "#cdd6f4" --fb "#1e1e2e" --ff "#cdd6f4" --cb "#1e1e2e" --cf "#cba6f7" --nb "#1e1e2e" --nf "#cdd6f4" --hb "#313244" --hf "#cba6f7" --sb "#313244" -sf "#cba6f7" --ab "#1e1e2e" --af "#cdd6f4" | xargs swaymsg exec --
+set $menu bemenu-run --prompt "" --fn "JetBrainsMono 13" --tb "#1e1e2e" --tf "#cdd6f4" --fb "#1e1e2e" --ff "#cdd6f4" --cb "#1e1e2e" --cf "#f5e0dc" --nb "#1e1e2e" --nf "#cdd6f4" --hb "#313244" --hf "#cba6f7" --sb "#313244" -sf "#cba6f7" --ab "#1e1e2e" --af "#cdd6f4" | xargs swaymsg exec --
 
 ### Output configuration
 # Font
